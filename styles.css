@@ -6,8 +6,14 @@ a {
     text-decoration: none;
 }
 
-.header {
+#header-img {
+    width: 300px;
+    margin: 20px;
+}
+
+#nav-bar {
     position: fixed;
+    display: flex;
     top: 0;
 }
 
@@ -29,4 +35,10 @@ li {
 
 div.spacer {
     height: 400px;
+}
+
+@media (max-width: 500px) {
+    #header-img {
+        width: 200px;
+    }
 }
